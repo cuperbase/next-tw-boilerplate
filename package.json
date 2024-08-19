@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "husky": "^9.1.4",
     "next": "14.2.5",
     "next-tw-boilerplate": "file:",
     "react": "^18",
