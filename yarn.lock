@@ -2137,14 +2137,6 @@ natural-compare@^1.4.0:
   resolved "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-"next-tw-boilerplate@file:.":
-  version "0.1.0"
-  dependencies:
-    next "14.2.5"
-    next-tw-boilerplate "file:C:/Users/Melody/AppData/Local/Yarn/Cache/v6/npm-next-tw-boilerplate-0.1.0-e43b245d-8115-4936-bd3b-d5f1ca28a92a-1724071946383/node_modules/next-tw-boilerplate"
-    react "^18"
-    react-dom "^18"
-
 next@14.2.5:
   version "14.2.5"
   resolved "https://registry.npmjs.org/next/-/next-14.2.5.tgz"
