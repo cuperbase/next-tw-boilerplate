@@ -9,21 +9,14 @@
 		"prettier",
 		"plugin:prettier/recommended",
 		"plugin:import/errors",
-		"plugin:import/recommended",
-		"plugin:import/warnings",
 		"plugin:@typescript-eslint/eslint-recommended",
 		"plugin:@typescript-eslint/recommended",
-		"next",
-		"next/core-web-vitals"
+		"next"
 	],
 	"plugins": ["import"],
 	"rules": {
-		"no-unused-vars": [
-			"off",
-			{
-				"argsIgnorePattern": "^_"
-			}
-		],
+		"no-unused-vars": "off",
+		"@typescript-eslint/no-unused-vars": "off",
 		"tailwindcss/no-custom-classname": "off",
 		"react-hooks/rules-of-hooks": "warn",
 		"react-hooks/exhaustive-deps": "off"
@@ -36,12 +29,11 @@
 			"parser": "@typescript-eslint/parser",
 			"rules": {
 				"no-mixed-spaces-and-tabs": "off",
-				"@typescript-eslint/no-explicit-any": "off",
-				"no-unused-vars": "warn"
+				"@typescript-eslint/no-explicit-any": "off"
 			}
 		},
 		{
-			"files": ["**/*.d.ts", "@types/global.ts", "apis/**/*.ts"],
+			"files": ["**/*.d.ts", "@types/index.ts", "apis/**/*.ts"],
 			"rules": {
 				"no-unused-vars": "off",
 				"@typescript-eslint/no-explicit-any": "off"
