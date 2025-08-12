@@ -1,37 +1,98 @@
-This is a [Next.js](https://nextjs.org/) + [Tailwind](https://tailwindcss.com/) Boilerplate project made by with [`Cuperbase`](https://github.com/cuperbase).
-It also has the best [Prettier](https://prettier.io/) and [Eslint](https://eslint.org/) configurations for base config.
+# Next.js + Tailwind CSS Boilerplate
 
-## Getting Started
+A modern, production-ready Next.js boilerplate with Tailwind CSS, TypeScript, ESLint, and Prettier pre-configured for rapid development.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- ⚡ **Next.js 15** - The React framework for production
+- 🎨 **Tailwind CSS** - A utility-first CSS framework
+- 📘 **TypeScript** - Static type checking
+- 🔍 **ESLint** - Code linting and quality
+- 💅 **Prettier** - Code formatting
+- 🐕 **Husky** - Git hooks for quality control
+- 📦 **Package Manager Agnostic** - Works with npm, yarn, pnpm, or bun
+
+## 🚀 Quick Start
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/melodyxpot/next-tw-boilerplate.git
+   cd next-tw-boilerplate
+   ```
+
+2. **Install dependencies**
+   ```bash
+   # Choose your preferred package manager
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see your app.
+
+## 📝 Available Scripts
+
+- `dev` - Start development server
+- `build` - Build for production
+- `start` - Start production server
+- `lint` - Run ESLint
+- `prettier` - Format code with Prettier
+- `prettier:check` - Check code formatting
+
+## 🏗️ Project Structure
+
+```
+├── app/                    # App router pages and layouts
+├── components/             # Reusable React components
+│   └── ui/                # UI components
+├── public/                # Static assets
+├── .eslintrc.json         # ESLint configuration
+├── .prettierrc.json       # Prettier configuration
+├── tailwind.config.ts     # Tailwind CSS configuration
+└── tsconfig.json          # TypeScript configuration
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 Configuration
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### ESLint & Prettier
+This boilerplate comes with optimized ESLint and Prettier configurations that work well together:
+- Import sorting
+- Tailwind CSS class sorting
+- TypeScript support
+- Next.js specific rules
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Husky
+Git hooks are set up to run linting and formatting before commits to ensure code quality.
 
-## Learn More
+## 🤝 Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTE.md) for details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Deploy on Vercel
+## 🙏 Acknowledgments
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Built with ❤️ using:
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
